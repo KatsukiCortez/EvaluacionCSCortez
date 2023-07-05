@@ -58,7 +58,7 @@ public class controladorDialogoPersona {
     // Boton ok
     @FXML
     private void handleOk(){
-        PersistenceUtil.initialize();
+        //PersistenceUtil.initialize();
         
         persona.setNombre(txtNombre.getText());
         persona.setApellido(txtApellido.getText());
