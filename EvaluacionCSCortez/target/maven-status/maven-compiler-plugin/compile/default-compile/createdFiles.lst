@@ -1,1 +1,3 @@
-module-info.class
+org\probandoopenjpa\Persona.class
+.netbeans_automatic_build
+org\probandoopenjpa\PersistenceUtil.class
