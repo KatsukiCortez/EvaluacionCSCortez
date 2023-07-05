@@ -12,6 +12,7 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.scene.image.Image;
 import javafx.stage.Modality;
+import javax.persistence.PersistenceUtil;
 import org.demo.modelo.PersonaModelo;
 
 public class App extends Application {
@@ -45,6 +46,7 @@ public class App extends Application {
         // Agregar icono
         this.primaryStage.getIcons().add(new Image(App.class.getResourceAsStream("/img/icon.png")));
         
+        PersistenceUtil.initialize();
         
         initRootLayout();
         showPersonOverview();

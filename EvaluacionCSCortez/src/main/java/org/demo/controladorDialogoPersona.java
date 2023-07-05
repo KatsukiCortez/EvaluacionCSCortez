@@ -77,7 +77,7 @@ public class controladorDialogoPersona {
         
         EntityManager em = PersistenceUtil.getEntityManager();
         em.getTransaction().begin();
-        em.persist(persona);
+        em.persist(personaen);
         em.getTransaction().commit();
         em.close();
         
